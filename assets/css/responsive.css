@@ -194,6 +194,7 @@
         display: block;
         margin: 12px auto;
         width: 100% !important;
+        padding: 0 55px;
     }
 
     #behindCam-section h2 {
@@ -209,6 +210,7 @@
         margin-top: 26px !important;
         padding: 3px 9px !important;
         font-size: 9px !important;
+        margin-left: 6.8rem !important;
     }
 
     #behindCam-section .col:nth-child(2) {
