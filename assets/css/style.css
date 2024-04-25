@@ -63,6 +63,8 @@ nav .nav-link {
 
 #heroCarousel h2 {
     font-family: var(--primary-font);
+    backdrop-filter: blur(2px);
+    width: fit-content;
 }
 
 #heroCarousel button,
