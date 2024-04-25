@@ -1,0 +1,429 @@
+/* Mobile and Small Devices */
+@media screen and (max-width: 430px) {
+    nav {
+        background: rgb(0 0 0 / 48%);
+        backdrop-filter: blur(6px);
+        z-index: 99 !important;
+    }
+
+    nav .navbar-brand {
+        font-size: small !important;
+    }
+
+    nav .navbar-toggler {
+        font-size: 16px !important;
+    }
+
+    nav .nav-link {
+        font-size: 16px !important;
+    }
+
+    .carousel-item img {
+        height: 60vh !important;
+    }
+
+    #heroCarousel .mask {
+        height: 60vh !important;
+    }
+
+    .carousel-caption {
+        display: block !important;
+    }
+
+    .carousel-caption>div {
+        display: none !important;
+    }
+
+    .carousel-caption h2 {
+        font-size: 25px !important;
+    }
+
+    #heroCarousel button[data-bs-target] {
+        top: 85%;
+    }
+
+    #heroCarousel .mask {
+        background-image: linear-gradient(rgb(0 0 0 / 14%), rgb(0 0 0 / 94%));
+    }
+
+    /**** Gallery ****/
+    #gallery {
+        padding: 4rem 2rem;
+    }
+
+    #gallery .col-lg-4 {
+        display: flex !important;
+        gap: 20px;
+        margin-bottom: 0 !important;
+        height: -webkit-fill-available;
+    }
+
+    #gallery .image-container {
+        width: 400px;
+        height: 180px;
+    }
+
+    #gallery .row .col-lg-4:nth-child(3) {
+        display: none !important;
+    }
+
+    /**** Testimonial ****/
+    #testimonial {
+        padding: 0rem 1.7rem;
+    }
+
+    #testimonial h3 {
+        font-size: 12px !important;
+    }
+
+    #testimonial p {
+        font-size: 8px !important;
+    }
+
+    #testimonialCarousel .custom-indicators {
+        font-size: 10px !important;
+    }
+
+    #testimonial img {
+        width: 100%;
+        height: 28vh;
+    }
+
+    #testimonialCarousel .carousel-item img {
+        height: 29vh !important;
+    }
+
+    #testimonialCarousel button span i {
+        font-size: 14px !important;
+    }
+
+    #testimonialCarousel .carousel-control-prev {
+        left: 11%;
+    }
+
+    #testimonialCarousel .carousel-control-next {
+        right: 5%;
+    }
+
+    /**** Video ****/
+    #video {
+        padding: 4rem 3rem;
+    }
+
+    #video video {
+        width: 100% !important;
+        height: 39vh !important;
+        margin: 35px auto 0 auto !important;
+    }
+
+    #video .video-content h3 {
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    #video .video-content {
+        top: 45%;
+        left: 28%;
+        padding: 16px;
+    }
+
+    /*  */
+    #paragraph-cta {
+        padding: 0rem 2rem;
+        font-size: 14px;
+    }
+
+    #paragraph-cta p {
+        width: 100%;
+    }
+
+    #paragraph-cta button {
+        margin-top: 4rem !important;
+        padding: 11px 52px;
+    }
+
+    /**** Carousel Section ****/
+    #carousel-section {
+        padding: 5rem 0rem 5rem 1.2rem;
+    }
+
+    #carouselSection .custom-indicators {
+        top: 89%;
+        font-size: 13px;
+    }
+
+    #carouselSection .carousel-item img {
+        width: 29% !important;
+        height: 160px !important;
+        margin-right: 9px !important;
+    }
+
+    #carouselSection .carousel-control-prev {
+        top: 112%;
+        left: 29%;
+    }
+
+    #carouselSection .carousel-control-next {
+        top: 121.4%;
+        left: 54%;
+    }
+
+    #carouselSection .carousel-control-prev i,
+    #carouselSection .carousel-control-next i {
+        font-size: 20px !important;
+    }
+
+    /*  */
+    #behindCam-section {
+        padding: 5rem 1rem !important;
+    }
+
+    #behindCam-section img {
+        width: 154px !important;
+        height: 245px !important;
+        box-shadow: -9px 19px 0px 0px #95959538 !important;
+    }
+
+    #behindCam-section span,
+    #behindCam-section p {
+        font-size: 7px !important;
+        margin-left: 1.2rem !important;
+    }
+
+    #behindCam-section h2 {
+        font-size: 11px !important;
+        line-height: 13px !important;
+        margin: 6px 0 !important;
+        margin-left: 11px !important;
+        font-weight: 400 !important;
+    }
+
+    #behindCam-section button {
+        margin-top: 7px !important;
+        padding: 3px 9px !important;
+        font-size: 9px !important;
+    }
+
+
+
+}
+
+/* Tablet and Ipad */
+@media screen and (min-width: 430px) and (max-width:768px) {
+
+    /**** Header ****/
+    nav {
+        background: rgb(0 0 0 / 48%);
+        backdrop-filter: blur(6px);
+        z-index: 99 !important;
+    }
+
+    nav .navbar-brand {
+        font-size: small !important;
+    }
+
+    nav .navbar-toggler {
+        font-size: 16px !important;
+    }
+
+    nav .nav-link {
+        font-size: 16px !important;
+    }
+
+    .carousel-caption {
+        display: block !important;
+    }
+
+    .carousel-caption p {
+        display: none;
+    }
+
+    /**** Gallery ****/
+    #gallery {
+        padding: 6rem 5rem 6rem 5rem;
+    }
+
+    #gallery .col-lg-4 {
+        display: flex !important;
+        gap: 20px;
+        margin-bottom: 0 !important;
+        height: -webkit-fill-available;
+    }
+
+    #gallery .image-container {
+        width: 400px;
+        height: 50vh;
+    }
+
+    #gallery .row .col-lg-4:nth-child(3) {
+        display: none !important;
+    }
+
+    /**** Testimonial ****/
+    #testimonial {
+        padding: 0rem 6rem;
+    }
+
+    #testimonial h3 {
+        font-size: 18px;
+    }
+
+    #testimonial p {
+        font-size: 16px;
+    }
+
+    #testimonial img {
+        width: 100%;
+    }
+
+    /**** Video ****/
+    #video {
+        padding: 11rem 6rem 3rem 6rem;
+    }
+
+    #video video {
+        height: 45vh !important;
+    }
+
+    #video .video-content h3 {
+        font-size: 17px;
+        line-height: 23px;
+    }
+
+    #video .video-content {
+        top: 50%;
+        left: 32%;
+        padding: 30px;
+    }
+
+    /*  */
+    #paragraph-cta {
+        padding: 3rem 6rem;
+    }
+
+    #paragraph-cta p {
+        width: 82%;
+    }
+
+    #paragraph-cta button {
+        margin-top: 5rem !important;
+        padding: 11px 59px;
+    }
+
+    /* Carousel Section */
+    #carouselSection .carousel-item img {
+        width: 29%;
+        height: 271px;
+        object-fit: cover;
+        margin-right: 20px;
+    }
+
+    #carouselSection .carousel-control-prev {
+        left: 39%;
+    }
+
+    #carouselSection .carousel-control-next {
+        top: 119%;
+        left: 47%;
+    }
+
+    /*  */
+    #behindCam-section {
+        padding: 7rem 2rem;
+    }
+
+    #behindCam-section img {
+        width: 316px;
+        height: 411px;
+        box-shadow: -19px 25px 0px 0px #95959538;
+    }
+
+    #behindCam-section h2 {
+        font-size: 35px !important;
+        line-height: 36px;
+        margin: 37px 0;
+        margin-left: 10px;
+        font-weight: 400;
+    }
+
+    #behindCam-section button {
+        margin-top: 13px !important;
+        padding: 7px 33px !important;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1026px) {
+    nav {
+        background: rgb(0 0 0 / 48%);
+        backdrop-filter: blur(6px);
+        z-index: 99 !important;
+    }
+
+    /**** Gallery ****/
+    #gallery {
+        padding: 7rem 5rem 1rem 5rem;
+    }
+
+    /**** Video Section ****/
+    #video video {
+        width: 100%;
+        height: 75vh;
+        object-fit: cover;
+    }
+
+    #video .video-content {
+        top: 37%;
+        left: 19%;
+        padding: 30px;
+    }
+
+    /**** Paragraph Section ****/
+    #paragraph-cta {
+        padding: 3rem 7rem;
+    }
+
+    /* Carousel Section */
+
+    #carousel-section {
+        padding: 6rem 0rem 6rem 2rem;
+    }
+
+    #carouselSection .carousel-item img {
+        width: 30%;
+        height: 280px;
+    }
+
+    #carouselSection .carousel-control-prev {
+        top: 112%;
+        left: 41%;
+    }
+
+    #carouselSection .carousel-control-next {
+        top: 119%;
+        left: 45%;
+    }
+
+    /*  */
+    #behindCam-section {
+        padding: 7rem 5rem;
+    }
+
+    #behindCam-section h2 {
+        font-size: 40px !important;
+        line-height: 40px;
+        margin: 35px 0;
+        margin-left: 17px !important;
+    }
+
+    #behindCam-section button {
+        margin-top: 28px;
+        padding: 9px 35px;
+    }
+
+    #behindCam-section img {
+        width: 366px;
+        height: 455px;
+    }
+}
+
+/* Add media query: 430px - 645px */
