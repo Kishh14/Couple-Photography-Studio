@@ -252,6 +252,10 @@ nav .nav-link {
     padding: 6rem 7rem;
     position: relative;
     font-family: var(--primary-font);
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
 }
 
 #video video {

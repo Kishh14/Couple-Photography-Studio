@@ -116,7 +116,7 @@
     #video video {
         width: 100% !important;
         height: 30vh !important;
-        margin: 35px auto 0 auto !important;
+        margin: 0px auto 0 auto !important;
     }
 
     #video .video-content h3 {
@@ -125,7 +125,7 @@
     }
 
     #video .video-content {
-        padding: 16px;
+        padding: 5px;
     }
 
     /*  */
@@ -222,6 +222,103 @@
 
 
 
+}
+
+@media screen and (min-width: 430px) and (max-width:655px) {
+
+    /**** Gallery Section ****/
+    #gallery {
+        padding: 6rem 2rem 6rem 2rem !important;
+    }
+
+    #gallery .image-container {
+        height: 35vh !important;
+    }
+
+    /**** Testimonial Section ****/
+    #testimonial {
+        padding: 0rem 2rem !important;
+    }
+
+    #testimonial p {
+        font-size: 11px !important;
+    }
+
+    /**** Video Section ****/
+    #video {
+        padding: 10rem 4rem 3rem 4rem !important;
+    }
+
+    /**** Paragrpah With CTA Section ****/
+    #paragraph-cta {
+        padding: 3rem 1rem !important;
+    }
+
+    /**** Carousel Section ****/
+    #carousel-section {
+        padding: 6rem 0rem 6rem 1rem !important;
+    }
+
+    .carousel-item-next,
+    .carousel-item-prev,
+    .carousel-item.active {
+        display: flex !important;
+    }
+
+    #carouselSection .carousel-item img {
+        width: 27% !important;
+        height: 170px !important;
+        display: block !important;
+        margin: auto !important;
+    }
+
+    #carouselSection .custom-indicators {
+        top: 91% !important;
+        left: 12% !important;
+    }
+
+    #carouselSection .carousel-control-prev {
+        left: 37% !important;
+    }
+
+    #carouselSection .carousel-control-next {
+        top: 122% !important;
+        left: 48% !important;
+    }
+
+    /**** Behind Camera Section ****/
+    #behindCam-section img {
+        width: 85vw !important;
+        height: 291px !important;
+        display: block !important;
+        margin: auto !important;
+    }
+
+    #behindCam-section span,
+    #behindCam-section p,
+    #behindCam-section button {
+        font-size: 10px !important;
+        margin-left: 0px !important;
+    }
+
+    #behindCam-section span,
+    #behindCam-section p {
+        width: 100% !important;
+        padding: 0 50px !important;
+    }
+
+    #behindCam-section h2 {
+        font-size: 30px !important;
+        margin: 30px 0 !important;
+        margin-left: 0px !important;
+    }
+
+    #behindCam-section .col:nth-child(2) {
+        text-align: center !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 /* Tablet and Ipad */
@@ -459,5 +556,3 @@
         width: 180px !important;
     }
 }
-
-/* Add media query: 430px - 645px */
