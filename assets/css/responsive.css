@@ -107,12 +107,15 @@
 
     /**** Video ****/
     #video {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
         padding: 4rem 2rem;
     }
 
     #video video {
         width: 100% !important;
-        height: 39vh !important;
+        height: 30vh !important;
         margin: 35px auto 0 auto !important;
     }
 
@@ -122,8 +125,6 @@
     }
 
     #video .video-content {
-        top: 45%;
-        left: 26%;
         padding: 16px;
     }
 
@@ -144,7 +145,7 @@
 
     /**** Carousel Section ****/
     #carousel-section {
-        padding: 5rem 0rem 5rem 1.2rem;
+        padding: 7rem 0rem 4rem 1.2rem;
     }
 
     #carouselSection .custom-indicators {
@@ -194,12 +195,12 @@
         display: block;
         margin: 12px auto;
         width: 100% !important;
-        padding: 0 55px;
+        padding: 0 15px;
     }
 
     #behindCam-section h2 {
-        font-size: 16px !important;
-        line-height: 18px !important;
+        font-size: 24px !important;
+        line-height: 25px !important;
         margin: 6px 0 !important;
         margin-left: 0px !important;
         font-weight: 400 !important;
@@ -285,6 +286,7 @@
 
     #testimonial p {
         font-size: 16px;
+        width: 100% !important;
     }
 
     #testimonial img {
@@ -294,6 +296,9 @@
     /**** Video ****/
     #video {
         padding: 11rem 6rem 3rem 6rem;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
     }
 
     #video video {
@@ -306,8 +311,6 @@
     }
 
     #video .video-content {
-        top: 50%;
-        left: 32%;
         padding: 30px;
     }
 
@@ -322,7 +325,7 @@
 
     #paragraph-cta button {
         margin-top: 5rem !important;
-        padding: 11px 59px;
+        padding: 0px !important;
     }
 
     /* Carousel Section */
@@ -365,6 +368,14 @@
         margin-top: 13px !important;
         padding: 7px 33px !important;
     }
+
+    .behindCam-cta {
+        width: 170px !important;
+    }
+
+    .behindCam-cta::before {
+        width: 180px !important;
+    }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1026px) {
@@ -380,16 +391,16 @@
     }
 
     /**** Video Section ****/
+    #video {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
     #video video {
         width: 100%;
         height: 75vh;
         object-fit: cover;
-    }
-
-    #video .video-content {
-        top: 37%;
-        left: 19%;
-        padding: 30px;
     }
 
     /**** Paragraph Section ****/
@@ -438,6 +449,14 @@
     #behindCam-section img {
         width: 366px;
         height: 455px;
+    }
+
+    .behindCam-cta {
+        width: 170px !important;
+    }
+
+    .behindCam-cta::before {
+        width: 180px !important;
     }
 }
 

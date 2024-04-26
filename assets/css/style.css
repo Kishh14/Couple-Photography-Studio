@@ -260,8 +260,8 @@ nav .nav-link {
 
 #video .video-content {
     position: absolute;
-    top: 40%;
-    left: 31%;
+    /* top: 40%;
+    left: 31%; */
     z-index: 3;
     text-align: center;
     backdrop-filter: blur(3px);
